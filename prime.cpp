@@ -16,6 +16,9 @@ void prime1(int n) {
             if(i % j == 0) {
                 dzielniki++;
             }
+            if (dzielniki > 2) {
+                break;
+            }
         }
         if(dzielniki == 2) {
             ile++;
